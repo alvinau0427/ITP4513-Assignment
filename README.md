@@ -3,9 +3,8 @@
 
 > PHP Program (MySQL): Online Travel Information System
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
-[![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Build Status](https://travis-ci.com/alvinau0427/ITP4513-Assignment.svg?branch=master)](https://travis-ci.org/alvinau0427/ITP4513-Assignment)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Getting Started
 - A web application which provides different functions for `customers`, `travel agent`, `hotel owners` and `airline companies`.
@@ -24,7 +23,7 @@ http://127.0.0.1:8080/index.php
 ![image](https://github.com/alvinau0427/ITP4513-Assignment/blob/master/doc/demo.png)
 
 ## License
-- ITP4513-Assignment is released under the [MIT license](https://opensource.org/licenses/MIT).
+- ITP4513-Assignment is released under the [MIT License](https://opensource.org/licenses/MIT).
 ```
 Copyright (c) 2020 alvinau0427
 
