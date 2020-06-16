@@ -20,7 +20,7 @@
 ### Run the program
 http://127.0.0.1:8080/index.php
 
-## Demonstration
+## Screenshots
 ![image](https://github.com/alvinau0427/ITP4513-Assignment/blob/master/doc/demo.png)
 
 ## License
