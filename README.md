@@ -20,7 +20,7 @@
 http://127.0.0.1:8080/index.php
 
 ## Screenshots
-![image](https://github.com/alvinau0427/ITP4513-Assignment/blob/master/doc/demo.png)
+![Image](https://github.com/alvinau0427/ITP4513-Assignment/blob/master/doc/demo.png)
 
 ## License
 - ITP4513-Assignment is released under the [MIT License](https://opensource.org/licenses/MIT).
