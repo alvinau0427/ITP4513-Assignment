@@ -1,20 +1,38 @@
 # ITP4513-Assignment
-> IVE 2015/16 Internet and Multimedia Applications Development (ITP4513) Assignment
+> **IVE 2015/16 Internet and Multimedia Applications Development (ITP4513) Assignment**
+>
+> A dynamic web-based platform developed using **PHP** and **MySQL**, designed to facilitate travel service management for multiple stakeholders including customers, agents, and service providers.
 
-> PHP Program (MySQL): Online Travel Information System
-
-[![Build Status](https://travis-ci.com/alvinau0427/ITP4513-Assignment.svg?branch=master)](https://travis-ci.org/alvinau0427/ITP4513-Assignment)
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white)](#) &nbsp;
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) &nbsp;
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#) &nbsp;
+[![JavaScript](https://img.shields.io/badge/Javacript-F9AB00?logo=javascript&logoColor=white)](#) &nbsp;
+[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white)](#) &nbsp;
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Getting Started
-- A web application which provides different functions for `customers`, `travel agent`, `hotel owners` and `airline companies`.
+## Project Features
+This system implements a role-based access control (RBAC) model to provide tailored functionalities for different user groups:
+* **Customers:** Browse travel packages, search for information, and manage personal bookings.
+* **Travel Agents:** Manage tour packages, pricing, and coordinate with service providers.
+* **Hotel Owners:** List available accommodations and manage room inventory.
+* **Airline Companies:** Manage flight schedules and seat availability.
 
-## Installation
+## Installation & Setup
+### Prerequisites
+* **XAMPP** (or any LAMP/WAMP stack with PHP 5.6+ and MySQL)
+* **Web Browser** (Chrome, Firefox, or Edge)
 
-### Setup
-1. For using xampp, put the files from `src` to `xampp/htdocs/`.
-2. Import the sql file `CreateProjectDB.sql` from `src/database` to `127.0.0.1:8080/phpmyadmin`.
-3. Then you can see the database named `createprojectdb` are already created.
+### Database Configuration
+1. Launch **phpMyAdmin** (typically at `http://localhost/phpmyadmin`).
+2. Create a new database or use the import function.
+3. Import the SQL schema file: `/src/database/CreateProjectDB.sql`.
+4. Verify that the database `createprojectdb` and its associated tables are successfully created.
+
+### Deployment
+1. Copy all files from the `/src` directory.
+2. Paste them into your server's root folder (e.g., `C:/xampp/htdocs/OTIS/`).
+3. Start **Apache** and **MySQL** modules in the XAMPP Control Panel.
+4. Access the application via: `http://localhost/OTIS/index.php`.
 
 ### Run the program
 http://127.0.0.1:8080/index.php
